@@ -155,6 +155,7 @@ form {
     border-radius: 5px;
     outline: none;
     border: 1px solid gray;
+    padding: 5px;
 }
 
 .form-block > input:invalid {
