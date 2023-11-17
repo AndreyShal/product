@@ -1,10 +1,10 @@
 # product
-Vanila js, json-ser
+Vanilla js, json-ser
 
 клонируем репозиторий
 переходим в папку backand и в консоле пишем
 
-  yarn add                
+  yarn                
   
   yarn serve-json
   
