@@ -44,7 +44,8 @@
       </div>
       <div class="form-block">
         <label for="price">Price</label>
-        <input type="number" required name="price" placeholder="Enter a price" id="price"/>
+        <input type="number" required name="price" aria-invalid="false" placeholder="Enter a price" id="price"/>
+        <span id="price-warning">Invalid price</span>
       </div>
       <div class="form-block">
         <label for="date-and-time">Date and time</label>

@@ -136,13 +136,11 @@ td {
 }
 
 form {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
     padding: 30px 0;
 }
 
 .form-block {
+    position: relative;
     display: flex;
     flex-direction: column;
     gap: 5px;
@@ -151,11 +149,11 @@ form {
 .form-block > input {
     width: 100%;
     height: 40px;
-    border: none;
     border-radius: 5px;
     outline: none;
     border: 1px solid gray;
     padding: 5px;
+    margin-bottom: 40px;
 }
 
 .form-block > input:invalid {
@@ -163,7 +161,16 @@ form {
 }
 
 .form-block > input:valid {
-    border: 1px solid black;
+    border: 1px solid gray;
+}
+
+.form-block > span {
+    display: none;
+    position: absolute;
+    bottom: 15px;
+    left: 5px;
+    color: red;
+    font-size: 12px;
 }
 
 .modal__btn-container {

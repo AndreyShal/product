@@ -53,6 +53,17 @@ addEventListener("DOMContentLoaded", (event) => {
   const priceInput = document.getElementById("price");
   const dateAndTimeInput = document.getElementById("date-and-time");
 
+  priceInput.addEventListener("input", (e) => {
+    priceInput.style.border = "1px solid red";
+    if(e.target.value <= 0) {
+      document.getElementById("price-warning").style.display = "block";
+      priceInput.style.border = "1px solid red";
+    } else {
+      document.getElementById("price-warning").style.display = "none";
+      priceInput.style.border = "1px solid gray";
+    }
+  })
+
   document.getElementById("submit-btn").addEventListener("click", (e) => {
     e.preventDefault()
 
