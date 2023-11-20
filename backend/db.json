@@ -4,37 +4,55 @@
       "id": 1,
       "name": "Product 1",
       "price": 10,
-      "dateAndTime": "2021-01-11T10:00:00.000Z"
+      "dateAndTime": "2021-01-11T10:00:00"
     },
     {
       "id": 2,
       "name": "Product 2",
       "price": 20,
-      "dateAndTime": "2021-01-12T11:00:00.000Z"
+      "dateAndTime": "2021-01-12T11:00:00"
     },
     {
       "id": 4,
       "name": "Product 4",
       "price": 40,
-      "dateAndTime": "2021-01-14T13:00:00.000Z"
+      "dateAndTime": "2021-01-14T13:00:00"
     },
     {
       "id": 3,
       "name": "Product 3",
       "price": 30,
-      "dateAndTime": "2021-01-13T12:00:00.000Z"
+      "dateAndTime": "2021-01-13T12:00:00"
     },
     {
       "id": 5,
       "name": "Product 5",
       "price": 50,
-      "dateAndTime": "2021-01-15T14:00:00.000Z"
+      "dateAndTime": "2021-01-15T14:00:00"
     },
     {
       "id": 6,
       "name": "Product 6",
       "price": 60,
-      "dateAndTime": "2021-01-16T15:00:00.000Z"
+      "dateAndTime": "2021-01-16T15:00:00"
+    },
+    {
+      "name": "Product 10",
+      "price": "100",
+      "dateAndTime": "2023-11-19T09:30",
+      "id": 7
+    },
+    {
+      "name": "Product 11",
+      "price": "111",
+      "dateAndTime": "2023-11-25T09:31",
+      "id": 8
+    },
+    {
+      "name": "Product 12",
+      "price": "12",
+      "dateAndTime": "2023-11-20T12:11",
+      "id": 9
     }
   ]
 }
