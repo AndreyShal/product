@@ -12,6 +12,8 @@ Vanilla js, json-ser
 
 переходим в папку frontend и в консоле пишем
 
- serve
+npm install
+
+npm run dev
   
 
